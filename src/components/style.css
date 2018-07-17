@@ -1,0 +1,20 @@
+.locationList{
+	height: 97%;
+	overflow: auto;
+}
+/* Determinar una pantalla chica 48en revisa libreria */
+/* Lo que esat aento de @media vale hast que llegue a ese tamano de pmatalla 48 en */
+@media(max-width: 64em){
+	.locationList{
+		/* background: green; */
+		max-height: 45vh;/* Alto del wivewport vh */
+		overflow: auto;
+		margin-bottom: 20px;
+	}
+}
+.forecast-title{
+	color:  white;
+	text-align: center;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}

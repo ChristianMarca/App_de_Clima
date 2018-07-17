@@ -1,0 +1,30 @@
+.WeatherLocationCont{
+	background-color: rgba(0,0,255,0.05);
+	margin-left: 10px;
+	margin-right: 10px;
+	width: calc(100%-20px);
+	min-width: 500px;
+	padding: 25px;
+	box-sizing: border-box;
+	font-family: 'Kaushan Script', cursive;
+	-webkit-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.43);
+	-moz-box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.43);
+	box-shadow: 10px 10px 13px -6px rgba(0,0,0,0.43);
+	line-height: 20px;
+	border-radius: 8px;
+	cursor:  pointer;
+
+}
+.LocationCont{
+	width: 100%;/* Se ajusta al contenedor */
+	height: 31.1px;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: left;
+	color:  #888;
+	line-height: 35px;
+
+}
+.LocationCont h1{
+	margin: 0;
+}
